@@ -11343,5 +11343,5 @@ html {
 }
 
 #btn-iniciarsesion {
-    border: 3px solid white
+    text-decoration-line: underline;
 }
