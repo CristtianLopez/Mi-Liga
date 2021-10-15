@@ -11345,3 +11345,37 @@ html {
 #btn-iniciarsesion {
     text-decoration-line: underline;
 }
+
+
+/*Barra de navegacion*/
+
+.field {
+    display: flex;
+    position: realtive;
+    margin: 1em auto;
+    width: 70%;
+    flex-direction: row;
+}
+
+.field>input[type=text],
+.field>button {
+    display: block;
+    font: 1.2em;
+}
+
+.field>input[type=text] {
+    flex: 1;
+    padding: 0.6em;
+    border: 0.1em solid #068611;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.field>button {
+    padding: 0.6em 0.8em;
+    background-color: #068611;
+    color: white;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
